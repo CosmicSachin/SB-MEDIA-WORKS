@@ -150,6 +150,7 @@ justify-content: center;
     left: 0%;
     bottom: 0%;
     position: absolute;
+    /* position:relative ; */
     background-attachment: fixed;
     display: flex;
 
@@ -1070,7 +1071,9 @@ a:hover {
 
     .logo img {
         height: 8vw;
-
+     
+            margin-top:0vh;
+    
     }
 
 
