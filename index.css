@@ -1043,11 +1043,11 @@ a:hover {
 
 
 
-.logo, .right, .icon{
+.logo, .right , .icon .ic{
     margin-top:-10vh;
 }
 
-
+.bar{margin: 0%;}
 
 
 
