@@ -1,17 +1,20 @@
 tl = gsap.timeline()
 
-tl.to(".logo",{
-    y:"10vh",
+tl.from(".logo",{
+    y:"-10vh",
+    opacity:0,
     delay:1.5,
 })
 
-tl.to(".right li",{
-    y:"10vh",
+tl.from(".right li",{
+    y:"-10vh",
+    opacity:0,
     stagger:0.2
 })
 
-tl.to(".icon li",{
-    y:"10vh",
+tl.from(".icon li",{
+    y:"-10vh",
+    opacity:0,
     stagger:0.2
 
 })

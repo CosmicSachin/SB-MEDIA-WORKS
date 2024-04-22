@@ -37,10 +37,10 @@ top: 0%;
 }
 
 
-/* nav:hover {
+nav:hover {
 
     background-color: black;
-} */
+}
 
 
 @keyframes move4 {
@@ -1036,10 +1036,10 @@ a:hover {
 }
 
 
-
-.logo, .right , .icon{
+/* 
+.logo , .right , .icon {
     margin-top:-10vh;
-}
+} */
 
 
 
