@@ -26,23 +26,21 @@ nav {
     align-items: center;
     justify-content: space-around;
     transition: .3s ease-in-out;
-
+top: 0%;
     gap: 2vw;
     padding: 1vh;
     z-index: 10;
     background-image: linear-gradient(black, rgba(0, 0, 0, 0));
     position: sticky;
-    top: 0vh;
     font-weight: lighter;
-
     animation: move4 2s ease-in-out 0s 1 alternate;
 }
 
 
-nav:hover {
+/* nav:hover {
 
     background-color: black;
-}
+} */
 
 
 @keyframes move4 {
