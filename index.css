@@ -1071,7 +1071,7 @@ a:hover {
 } */
 
 .container{
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
     .right {
@@ -1122,7 +1122,7 @@ a:hover {
     .c4 {
       
         gap:50vw;
-      
+margin-top: 90vh;
 margin-bottom: 0vh;
     }
 
