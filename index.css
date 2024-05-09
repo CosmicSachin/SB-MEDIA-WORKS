@@ -1530,11 +1530,14 @@ right: .5%;
 
     .m1 {
         padding-bottom: 40vh;
+        animation: move1 3s ease-in-out 2s 1 alternate;
+
     }
 
     .c4 {
         padding-top: 0;
         gap: 30%;
+        
     }
 
 
@@ -1542,6 +1545,8 @@ right: .5%;
     .c2 {
         margin-top: 45vh;
         height: 25vw;
+        animation: move1 3s ease-in-out 2s 1 alternate;
+
     }
 
 
