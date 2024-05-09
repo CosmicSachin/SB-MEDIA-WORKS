@@ -19,6 +19,73 @@ html {
 
 
 
+#loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+    background-color: #000000;
+    background-size: cover;
+	z-index: 999;
+}
+
+
+
+.load{
+    position: absolute;
+    height: 30vh;
+    /* mix-blend-mode:hard-light; */
+    /* border-radius: 40%; */
+    width: auto;
+    filter:sepia(70%)
+}
+
+
+
+
+
+
+
+.load2{
+    animation: rotation1 35s infinite linear;
+}
+
+.load3{
+    animation: rotation2 35s infinite linear;
+}
+
+
+
+
+@keyframes rotation1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes rotation2 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+
 
 nav {
     display: flex;
@@ -1054,6 +1121,10 @@ a:hover {
         overflow-x: hidden;
     }
 
+    .load{
+        
+        height: 20vh;}
+
 
     nav {
         gap: 60vw;
@@ -1407,6 +1478,10 @@ margin-bottom: -15vh;
     }
 
 
+
+    .load{
+        height: 20vh;
+    }
 
     .logo img {
         height: 15vw;
