@@ -7,7 +7,7 @@ function loadNow(opacity) {
         loader.style.opacity = opacity;
         window.setTimeout(function() {
             loadNow(opacity - 0.10);
-        }, 50);
+        }, 20);
     }
 }
 
@@ -27,7 +27,7 @@ tl = gsap.timeline()
 tl.from(".logo",{
     y:"-10vh",
     opacity:0,
-    delay:1.5,
+    delay:4,
 })
 
 tl.from(".right li",{
