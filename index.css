@@ -1545,7 +1545,8 @@ right: .5%;
     .c2 {
         margin-top: 45vh;
         height: 25vw;
-        animation: move1 3s ease-in-out 2s 1 alternate;
+        animation: move 2s ease-in-out 2s 1 alternate;
+
 
     }
 
