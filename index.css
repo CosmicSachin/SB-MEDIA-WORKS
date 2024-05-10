@@ -234,7 +234,7 @@ justify-content: center;
     margin-top: 24vh;
     filter: brightness(150%);
     height: 20vw;
-    animation: move 2s ease-in-out 1.5s 1 alternate;
+    animation: move 2s ease-in-out 1.8s 1 alternate;
 }
 
 
@@ -266,7 +266,7 @@ justify-content: center;
     top: 85vh;
     opacity: 70%;
     font-family: 'Times New Roman', Times, serif;
-    animation: move1 2s ease-in-out 1.5s 1 alternate;
+    animation: move1 2s ease-in-out 1.8s 1 alternate;
 }
 
 
