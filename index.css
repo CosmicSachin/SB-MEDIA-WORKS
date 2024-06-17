@@ -36,8 +36,6 @@ html {
 .load{
     position: absolute;
     height: 30vh;
-    /* mix-blend-mode:hard-light; */
-    /* border-radius: 40%; */
     width: auto;
     filter:sepia(50%)
 }
@@ -207,7 +205,7 @@ justify-content: center;
 .container {
 
     background-image: url(mf2.jpeg);
-    box-shadow: 10px -100px 100px 10px rgb(0, 0, 0) inset;
+    box-shadow: 10px -150px 100px 10px rgb(0, 0, 0) inset;
     background-size: cover;
     background-position: center center;
     top: 0%;
